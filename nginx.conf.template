@@ -6,8 +6,8 @@ http {
         listen ${NGINX_PORT};
 
         # مسیر پنل وب (فوروارد به پورت داخلی 2053 که x-ui روش گوش می‌ده)
-        location /managepanel/ {
-            proxy_pass http://127.0.0.1:2053/managepanel/;
+        location /adambarfi/ {
+            proxy_pass http://127.0.0.1:2053/adambarfi/;
             proxy_http_version 1.1;
             proxy_set_header Upgrade $http_upgrade;
             proxy_set_header Connection "upgrade";
@@ -38,63 +38,63 @@ http {
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header X-Forwarded-Proto $scheme;
         }
-location /in1 {
+location /adambarfi1 {
     proxy_pass http://127.0.0.1:8081;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in2 {
+location /adambarfi2 {
     proxy_pass http://127.0.0.1:8082;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in3 {
+location /adambarfi3 {
     proxy_pass http://127.0.0.1:8083;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in4 {
+location /adambarfi4 {
     proxy_pass http://127.0.0.1:8084;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in5 {
+location /adambarfi5 {
     proxy_pass http://127.0.0.1:8085;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in6 {
+location /adambarfi6 {
     proxy_pass http://127.0.0.1:8086;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in7 {
+location /adambarfi7 {
     proxy_pass http://127.0.0.1:8087;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in8 {
+location /adambarfi8 {
     proxy_pass http://127.0.0.1:8088;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /in9 {
+location /adambarfi9 {
     proxy_pass http://127.0.0.1:8089;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;

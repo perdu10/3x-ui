@@ -38,63 +38,63 @@ http {
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header X-Forwarded-Proto $scheme;
         }
-location /Telegram:@Configfori {
+location /Telegram1:@Configfori {
     proxy_pass http://127.0.0.1:8081;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram2:@Configfori {
     proxy_pass http://127.0.0.1:8082;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram3:@Configfori {
     proxy_pass http://127.0.0.1:8083;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram4:@Configfori {
     proxy_pass http://127.0.0.1:8084;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram5:@Configfori {
     proxy_pass http://127.0.0.1:8085;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram6:@Configfori {
     proxy_pass http://127.0.0.1:8086;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram7:@Configfori {
     proxy_pass http://127.0.0.1:8087;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram8:@Configfori {
     proxy_pass http://127.0.0.1:8088;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
     proxy_set_header Host $host;
 }
-location /Telegram:@Configfori {
+location /Telegram9:@Configfori {
     proxy_pass http://127.0.0.1:8089;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
